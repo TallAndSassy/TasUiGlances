@@ -16,8 +16,8 @@ class TasUiGlancesServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'tassy');
 
         //        $this->publishes([
-        //            __DIR__.'/public' => public_path('eleganttechnologies/grok'),
-        //        ]);
+        //            __DIR__.'/public/xxx' => public_path('tassy/UiGlances'),
+        //        ], ['TallAndSassy','TassyUiGlances', 'EtGrok']);
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'tallandsassy');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'tallandsassy');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
