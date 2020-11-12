@@ -1,5 +1,5 @@
 {
-    "name": "tallandsassy/tasuiglances",
+    "name": "tallandsassy/app-theme-base-ui-glances",
     "description": "Tall and Sassy UI functionality that isn't too complicated. Think 'flash' and fancy reveals.",
     "license": "mit",
     "authors": [
@@ -9,13 +9,10 @@
             "homepage": "https://www.eleganttechnologies/aboutme"
         }
     ],
-    "homepage": "https://github.com/tallandsassy/tasuiglances",
+    "homepage": "https://github.com/tallandsassy/app-theme-base-ui-glances",
     "keywords": ["Laravel", "TasUiGlances"],
     "require": {
-        "illuminate/support": "~5|~6|~7|~8"
-
-    },
-    "require": {
+        "illuminate/support": "~5|~6|~7|~8",
         "mattlibera/livewire-flash": "^0.4.0"
     },
     "require-dev": {

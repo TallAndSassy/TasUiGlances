@@ -27,6 +27,8 @@ class TasUiGlancesServiceProvider extends ServiceProvider
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {
             $this->bootForConsole();
+
+
         }
     }
 
@@ -65,6 +67,7 @@ class TasUiGlancesServiceProvider extends ServiceProvider
         // Publishing the configuration file.
         $this->publishes([
             __DIR__.'/../config/tasuiglances.php' => config_path('tasuiglances.php'),
+            __DIR__.'/../config/livewire-flash.php' => config_path('livewire-flash.php'),
         ], 'tasuiglances.config');
 
         // Publishing the views.
@@ -84,5 +87,9 @@ class TasUiGlancesServiceProvider extends ServiceProvider
 
         // Registering package commands.
         // $this->commands([]);
+
+        //           $this->publishes([
+        //                 __DIR__.'/../config/livewire-flash.php' => resource_path('livewire-flash.php'),
+        //                ], ['views.auth']);
     }
 }
